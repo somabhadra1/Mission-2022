@@ -1,0 +1,30 @@
+
+}
+.half-width{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.half-width img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+h1
+
+.header{
+    font: 100px;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: palegreen;
+    
+}
