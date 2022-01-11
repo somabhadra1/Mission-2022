@@ -1,22 +1,64 @@
-.second h1{
-    margin-left: 20px;
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(126, 18, 18); */
 }
-
-}
-.First{
+.first{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 150px;
+}
+.second{
+  display: flex;
+  /* border: 5px solid red; */
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+    
+}
+.card{
+    /* border: 2px solid black; */
+    box-shadow: 10px 10px 10px 10px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    height: 500px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 20px;
+}
+.pic{
+    height: 300px;
+    width: 350px;
 }
 .first h1{
     border-left: 20px;
 }
+.button{
+    background-color: brown;
+    color: white;
+    border: 1px solid brown ;
+    border-radius: 50px;
+    padding: 8px 30px;
 }
+.button:hover{
+    background-color: rgb(34, 79, 177);
+    color: white;
+    border: 1px solid rgb(34, 79, 177) ;
+    border-radius: 50px;
+    padding: 8px 30px;
 }
+
 .half-width{
-    width: 50%;
-    display: flex;
-    align-items: center;
+    width: 40%;
     margin-top: 50px;
     margin-left: 50px;
 }
@@ -25,42 +67,12 @@
     display: flex;
     align-items: center;
 }
-h1
-
-.header{
-    font: 100px;
-}
-.first{
-    display: flex;
-    align-items: center;
-}
-.second{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: palegreen;
-    
-}
 .third{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.first {
-    margin-left: 20pxn solid;
-    margin-bottom: 50px solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.First h1{
-    margin-top: 50px;
-    margin-left: 50px;
-}
-.First p{
-    margin-left: 50px;
 
-}
 .mission{
     border-left: 50px;
 }
@@ -68,8 +80,19 @@ h1
     display: flex;
     align-items: center;
     justify-content: center;
-    border-left: 50px;
-    border-width: 20px;
 }
 
+.footer{
+    height: 300px;
+    background-color: black;
+    margin-top: 100px ;
 }
+.text-white{
+    color: white;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
